@@ -1,0 +1,22 @@
+**#1 using signed driver**
+```
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CI\Config
+set VulnerableDriverBlocklistEnable value to 0, if that variable doesn't exists
+you can create DWORD value "VulnerableDriverBlocklistEnable" with value "0"
+
+reboot your computer.
+
+
+
+1. right click start_signed.bat as admin
+2. open cmd in drvscan folder
+3. Client.exe --scanpci
+```
+
+
+**#2 using unsigned driver**
+```
+1. bcdedit -set testsigning ON and reboot
+2. right click start_unsigned.bat as admin
+3. Client.exe --scanpci
+```
