@@ -1,6 +1,6 @@
 # 🛡️ DrvScan
 
-> **A powerful tool designed to detect memory anomalies, PCI devices, and unverified kernel drivers.**
+> **A powerful tool designed to report Anomalies in PCI devices and UEFI DXE modules.**
 
 ---
 
